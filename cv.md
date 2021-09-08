@@ -55,9 +55,9 @@ Courses:
 
 ##**Projects**
 ***
-* [wtwok](https://wtwok.netlify.app/)
+* [wtwok](https://wtwok.netlify.app)
 * [big-trip](https://yankovski88.github.io/824695-big-trip-13/public/index.html)
-* [keksobooking](https://yankovski88.github.io/824695-keksobooking-21/)
+* [keksobooking](https://yankovski88.github.io/824695-keksobooking-21)
 * [technomart](https://yankovski88.github.io/824695-technomart-28/index.html)
 
 
