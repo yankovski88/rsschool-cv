@@ -1,7 +1,7 @@
-#**Yankovski Yura**
+# **Yankovski Yura** #
 ***
 
-##**Contacts**
+## **Contacts** ##
 ***
 * Location: Minsk, Belarus
 * Phone: +375 29 924-40-09
@@ -9,7 +9,7 @@
 * Email: yankovski88@gmail.com
 * GitHub: [yankovski88](https://github.com/yankovski88)
 
-##**About me**
+## **About me** ##
 ***
 My goal is to become a front-end developer.   There is a desire to learn something new and the ability to learn quickly.
 
@@ -23,7 +23,7 @@ My strengths:
 * Algorithmic approach.
 * A responsibility.
 
-##**Skills**
+## **Skills** ##
 ***
 * HTML
 * CSS
@@ -35,25 +35,25 @@ My strengths:
 * Figma
 * BEM
 
-##**Code Example**
+## **Code Example** ##
 ***
 ```
 const sum = (a, b) => a + b;
 sum(1, 2); // 3
 ```
 
-##**Education**
+## **Education** ##
 ***
 Courses:
 * HTML Academy
 * RS School JS / FRONT-END 2021
 
-##**English**
+## **English** ##
 ***
 * A2
 
 
-##**Projects**
+## **Projects** ##
 ***
 * [wtwok](https://wtwok.netlify.app)
 * [big-trip](https://yankovski88.github.io/824695-big-trip-13/public/index.html)
