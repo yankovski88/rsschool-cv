@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Title</title>
+</head>
+<body>
+<div class="container-center">
+    <div class="column-two">
+        <div class="content-left">
+            <header class="main-header">
+                <img class="avatar" src="./images/I.jpg" alt="Yankovsky Yuri on photo">
+                <h1 class="center">Yankovsky Yuri</h1>
+                <div class="center">Junior Frontend Developer</div>
+            </header>
+            <div class="contacts">
+                <h2 class="center">Contacts</h2>
+                <ul class="items ">
+                    <li class="telephone padding-left--35px">+375 29 924-40-09</li>
+                    <li><a class="telegram contact-link padding-left--35px"
+                           href="https://t.me/yankovski88">@yankovski88</a>
+                    </li>
+                    <li class="email padding-left--35px">yankovski88@gmail.com</li>
+                    <li><a class="github contact-link padding-left--35px"
+                           href="https://github.com/yankovski88">@yankovski88</a></li>
+                    <li class="location padding-left--35px">Minsk, Belarus</li>
+                </ul>
+            </div>
+            <div class="skills">
+                <h2 class="center">Skills</h2>
+                <ul class="items items--inside">
+                    <li class="item">CSS</li>
+                    <li class="item">SASS</li>
+                    <li class="item">JavaScript</li>
+                    <li class="item">React</li>
+                    <li class="item">Redax</li>
+                    <li class="item">Git</li>
+                    <li class="item">Figma</li>
+                    <li class="item">BEM</li>
+                </ul>
+            </div>
+            <div class="languages">
+                <h2 class="center">Languages</h2>
+                <ul class="items items--inside">
+                    <li class="item">
+                        <span>English: </span><span>A2</span>
+                    </li>
+                    <li class="item">
+                        <span>Russian: </span><span>Native</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <main class="content-right">
+            <section class="about-myself">
+                <h2>About me</h2>
+                <hr>
+                <div>
+                    My goal is to become a front-end developer.
+                    There is a desire to learn something new and learn quickly.
+
+                    My strengths:
+                    <ul class="items items--inside">
+                        <li class="item">Ability to solve problems.</li>
+                        <li class="item">Analytical mind.</li>
+                        <li class="item">Perseverance.</li>
+                        <li class="item">Teamwork skills.</li>
+                        <li class="item">Good mark.</li>
+                        <li class="item">Perseverance.</li>
+                        <li class="item">Algorithmic approach.</li>
+                        <li class="item">A responsibility.</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="experience">
+                <h2>Experience</h2>
+                <hr>
+                <ul class="items">
+                    <li class="item column">
+                        <div>2021 - present.</div>
+                        <div>I practice in an IT company.</div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="education">
+                <h2>Education</h2>
+                <hr>
+                <h3>Courses:</h3>
+                <ul class="items items--inside">
+                    <li class="item">HTML Academy</li>
+                    <li class="item">JavaScript Manual on learnjavascript.ru</li>
+                    <li class="item">RS School JS / FRONT-END 2021</li>
+                </ul>
+            </section>
+
+            <section class="projects">
+                <h2>Projects</h2>
+                <hr>
+                <ul class="items items--inside">
+                    <li class="item">
+                        <a class="link" href="https://wtwok.netlify.app">wtwok</a> / <a class="link"
+                                                                                        href="https://github.com/yankovski88/824695-what-to-watch-6">code</a>
+                    </li>
+                    <li class="item"><a class="link"
+                                        href="https://yankovski88.github.io/824695-big-trip-13/public/index.html">big-trip</a>
+                        <span>/</span>
+                        <a class="link" href="https://github.com/yankovski88/824695-big-trip-13">code</a>
+                    </li>
+                    <li class="item"><a class="link" href="https://yankovski88.github.io/824695-keksobooking-21">keksobooking</a>
+                        <span>/</span> <a class="link"
+                                          href="https://github.com/yankovski88/824695-keksobooking-21">code</a>
+                    </li>
+                    <li class="item"><a class="link"
+                                        href="https://yankovski88.github.io/824695-technomart-28/index.html">technomart</a>
+                        <span>/</span> <a class="link"
+                                          href="https://github.com/yankovski88/824695-technomart-28">code</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="code-example">
+                <h2>Code examples</h2>
+                <hr>
+                <div>
+                    Write a function which calculates the average of the numbers in a given list.
+                    Note: Empty arrays should return 0.
+                </div>
+                <br>
+                <code>
+                <pre>
+    const numbers = [1, 2, 3];
+
+    const getAverage = (array) => {
+
+        if (array.length === 0) {
+            return 0
+        }
+
+     return array.reduce((acc, item) => acc += item) / array.length
+    }
+
+    getAverage(numbers) // 2
+                </pre>
+                </code>
+            </section>
+
+
+        </main>
+    </div>
+    <footer class="main-footer">
+        <a class="link-svg" href="https://rs.school">
+            <img class="rs" src="./images/svg/rs_school.svg" alt="logo of rs school">
+        </a>
+    </footer>
+</div>
+
+</body>
+</html>

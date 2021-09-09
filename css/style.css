@@ -1,0 +1,205 @@
+body {
+
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.items--inside {
+    list-style: inside;
+}
+
+.margin-left--20px {
+    margin-left: 20px;
+}
+
+.container-center {
+    margin: 0 auto;
+    width: 1024px;
+    padding: 0 20px;
+
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+}
+
+.column-two {
+    display: grid;
+    grid-template-columns: 42% 58%;
+}
+
+.content-left {
+    padding: 0 40px;
+
+    background-color: #141414;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.avatar {
+    display: block;
+    margin: 0 auto;
+
+    max-width: 300px;
+}
+
+.main-header {
+    margin-bottom: 30px;
+}
+
+.items {
+    margin: 0 auto 30px;
+}
+
+.item-code {
+    margin-left: 20px;
+}
+
+.items li {
+    margin-bottom: 5px;
+}
+
+.telephone {
+    position: relative;
+}
+
+.padding-left--35px {
+    padding-left: 35px;
+}
+
+.telephone:before {
+    content: " ";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-image: url(../images/svg/phone.svg);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    left: 0;
+    top: 0;
+}
+
+.telegram {
+    position: relative;
+}
+
+.telegram:before {
+    content: " ";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-image: url(../images/svg/icons8-телеграмма-app.svg);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    left: 0;
+    top: 0;
+}
+
+.email {
+    position: relative;
+}
+
+.email:before {
+    content: " ";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-image: url(../images/svg/Tilda_Icons_1ed_mail.svg);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    left: 0;
+    top: 0;
+}
+
+.github {
+    position: relative;
+}
+
+.github:before {
+    content: " ";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-image: url(../images/svg/icons8-github.svg);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    left: 0;
+    top: 0;
+}
+
+.location {
+    position: relative;
+}
+
+.location:before {
+    content: " ";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-image: url(../images/svg/Tilda_Icons_1ed_location.svg);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    left: 0;
+    top: 0;
+}
+
+.contact-link {
+    text-decoration: none;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.contact-link:hover {
+    color: red;
+}
+
+.content-right {
+    padding: 40px;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: red;
+}
+
+pre {
+    background-color: lightgray;
+}
+
+.main-footer {
+    display: flex;
+    background-color: #222222;
+}
+
+.link-svg {
+    display: flex;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 20px;
+}
+
+.rs {
+    width: 150px;
+}
