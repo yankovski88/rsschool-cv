@@ -190,16 +190,21 @@ pre {
 
 .main-footer {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #222222;
 }
 
 .link-svg {
     display: flex;
-    margin-left: auto;
     margin-right: 0;
     padding: 20px;
 }
 
 .rs {
     width: 150px;
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.8);
 }
